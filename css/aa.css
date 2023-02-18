@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: gray;
+}
+section{
+    margin: 15px 0px;
+}
+.bgbanner{
+      background-image: url("/img/background-valentine-99_1675912577.webp");
+}
+.slides{
+    width: 60%;
+    float: left;
+}
+.bannerphu{
+    width: 60%;
+    float: left;
+}
+
+
+.row{
+    float:left;
+    width: 100%;
+}
+.paddtb30{
+    padding: 20px 0px;
+}
+.bgxanh{
+    background-color: #1ebe04;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.bgtrang{
+    background-color: white;
+}
+.boxbogoc{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}

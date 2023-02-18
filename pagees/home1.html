@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1980px;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+        header {
+            width: 100%;
+            height: 420px;
+        }
+
+        .img {
+            background-image: url(/img/instagram-carousel-templates_23-2148775247.webp);
+            width: 100%;
+            height: 400px;
+        }
+
+        header>nav {
+            line-height: 40px;
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            font-variant: small-caps;
+        }
+
+        .menu>ul>li {
+            display: inline-block;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .menu>ul>li>a {
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+
+        .menu>ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: orangered;
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+
+        .menu>ul>li>a:hover {
+            color: yellow;
+        }
+
+        .menu>ul>li:hover>ul {
+            display: block;
+            background-color: orangered;
+            color: white;
+        }
+
+        .menu ul a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            padding: 0 10;
+        }
+
+        main {
+            max-width: 1300px;
+            margin: 0 auto;
+            height: auto;
+
+        }
+
+        .sanpham {
+
+            height: 550px;
+            width: 100%;
+            position: relative;
+
+
+        }
+
+        .left {
+            width: 35%;
+            float: left;
+            height: 300px;
+        }
+
+        .right {
+            width: 64%;
+            float: left;
+            height: 300px;
+            padding: 20px;
+
+        }
+
+        .niemyet {
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+            margin: 5px;
+            padding: 5px;
+            line-height: 80px;
+            font-size: xx-large;
+            text-align: center;
+            color: orangered;
+        }
+
+        label {
+            float: left;
+            padding: 30px;
+        }
+
+        .vnom {
+            margin: 10px;
+            margin-top: -4px;
+            margin-bottom: 10px;
+            margin-left: -4px;
+            padding: 30px;
+
+        }
+
+        a {
+            list-style: none;
+            text-decoration: none;
+
+        }
+
+        input {
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .vnu {
+            margin: 10px;
+            margin-top: -4px;
+            margin-bottom: 10px;
+            margin-left: -4px;
+            padding: 30px;
+            box-shadow: 0 0 5px gray;
+            float: left;
+
+        }
+
+        .color {
+            background-color: red;
+            color: white;
+
+        }
+
+        .end {
+            width: 1300px;
+            margin: auto;
+            height: 300px;
+
+        }
+
+        #footer {
+
+            max-width: 1200px;
+            background: grey;
+            height: 322px;
+            margin-top: 338px;
+            padding: 0px 63px;
+            padding-top: 57px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h2 {
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .link {
+            width: auto;
+            border-radius: 10px;
+            clear: both;
+            margin: 10px;
+        }
+
+        .dowload img {
+            padding-top: 10px;
+            clear: both;
+        }
+
+        .trailer {
+            margin: 10px;
+            padding-bottom: 20px;
+        }
+
+        .thongtin>h2 {
+            height: 30px;
+            font-weight: bold;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: aqua;
+
+        }
+
+        .thongtin {
+            height: auto;
+            margin: 4px;
+        }
+
+        .vnm {
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a>
+                    <li><a href="#">Góp ý</a></li>
+                    <li><a href="#">Gỏi đáp</a></li>
+
+                </ul>
+            </nav>
+            <div class="img"></div>
+        </header>
+        <main>
+            <div class="sanpham">
+                <div class="left">
+                    <img src="/img/laptop.webp" alt="" width="100%">
+                </div>
+                <div class="right">
+                    <div>
+                        <h2>Laptop gaming ASUS ROG Strix G15 G513IE HN246W</h2>
+                    </div>
+                    <div class="niemyet">22,490,000₫</div>
+                    <div>
+                        <label for="">Bảo hiểm</label>
+                        <div class="vnom">bảo hiểm thiết bị điện tử
+                            <a href="#">tiềm hiểu thêm</a>
+                        </div>
+                    </div>
+                    <div class="ship">
+                        <label for="" class="now">vận chuyển</label>
+                        <div class="vnom now">miễn phí vận chuyển
+                        </div>
+                    </div>
+                    <div>
+                        <button>Số lượng</button>
+                        <input type="text">
+                        <button>5 Sản phẩm có sẵn</button>
+                    </div>
+                    <div class="vnom">
+                        <button class="vnu">Thêm vào giở hàng</button>
+                        <button class="vnu color">Mua Ngay</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="trailer">
+                <div class="thongtin">
+                    <h2>Chi tiết sản phẩm</h2>
+                    <div>
+                        <label for="">Thương hiệu</label>
+                        <div class="vnm">Asus
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Loại laptop</label>
+                        <div class="vnm">Gaming
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Nhà sản xuất chip</label>
+                        <div class="vnm">
+                            Nvidia
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Loại lưu trữ</label>
+                        <div class="vnm">SSD
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Tình trạng</label>
+                        <div class="vnm">Mới
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Hạn bảo hành</label>
+                        <div class="vnm">24 tháng
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Loại bảo hành</label>
+                        <div class="vnm">Bảo hành nhà sản xuất
+
+                        </div>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h2>Mô tả sản phẩm</h2>
+                </div>
+                <div>
+                    Thông số ASUS ROG Strix G15 G513IH-HN015W <br>
+                    • CPU AMD Ryzen 7 4800H 2.9GHz up to 4.2GHz 8MB <br>
+                    • RAM 8GB DDR4 3200MHz (2x SO-DIMM socket, up to 32GB SDRAM) <br>
+                    • Ổ cứng 512GB SSD PCIE G3X4 (Còn trống 1 khe SSD M.2 PCIE) <br>
+                    • Card đồ họa NVIDIA GeForce GTX 1650 4GB GDDR6 With ROG Boost up to 1615MHz at 50W (65W with
+                    Dynamic Boost) <br>
+                    • Màn hình 15.6" FHD (1920 x 1080), IPS Non-Glare, NanoEdge, 144Hz, Adaptive-Sync, 63% sRGB <br>
+                    • Cổng giao tiếp <br>
+                    • 1x Type C USB 3.2 Gen 2 with Power Delivery and Display Port <br>
+                    • 3x USB 3.2 Gen 1 Type-A <br>
+                    • Hệ điều hành Windows 11 Home <br>
+                    • Pin 4 Cell 56WHrs <br>
+                    • Trọng lượng 2.1 kg <br>
+                    • Kích thước 35.4 x 25.9 x 2.06 ~ 2.59 (cm) <br>
+                    • Xuất xứ: Trung Quốc <br>
+                    • Bảo hành chính hãng 24 tháng tại trung tâm bảo hành Asus <br>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="containerfull">
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="/img/gvn.jfif" alt="">
+                </div>
+                <p>Tìm hiểu thêm:https://gearvn.com/</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

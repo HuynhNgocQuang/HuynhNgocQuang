@@ -1,0 +1,164 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: -15%;
+    margin-right: -15%;
+}
+header{
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+}
+.img{
+    background-image: url("/img/banhang.webp");
+    height: 400px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.col-2{
+    flex:0px 0px 16.666667%;
+    max-width: 16.666667%;
+}
+.col-3{
+    flex:0px 0px 25%;
+    max-width: 25%;
+}
+.col-8{
+    flex:0px 0px 66.666667%;
+    max-width: 66.666667%;
+}
+.col-12{
+    flex:0px 0px 100%;
+    max-width: 100%;
+}
+.menu ul li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul.menu-1{
+    position: absolute;
+    width: 225px;
+    background-color: black;
+}
+ul.menu-1 li{
+    padding: 15px 0px 0px 0px ;
+    float: none;
+    display: none;
+}
+.menu ul li:hover ul.menu-1 li{
+    display: block;
+    color: yellow;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.col-25{
+    width:25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant:small-caps;
+    color:orangered;
+}
+.prog>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    font-family: impact;
+    font-size: 25px;
+    color: orange;
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.icons img{
+    width: 25px;
+    height: 25px;
+}
+.prod>.new-icon{
+    width: 30%;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+h3{
+    font-size: larger;
+    background-color: yellow;
+}
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow:0px 0px 5px red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center; 
+}
+.san-pham>.ten{
+    font-size: large;
+    font-variant: small-caps;
+    color: blue;
+}
+.san-pham img{
+    max-width: 90%;
+}
+.san-pham>.gia{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham>.gia del{
+    color:gray
+}
+#footer{
+    
+    max-width: 1200px;
+    background:grey;
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;  
+  }
+.baner{
+    max-width: 1300px;
+}

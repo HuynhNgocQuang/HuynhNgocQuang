@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .row {
+            display: flex;
+            max-width: 100%;
+            flex-wrap: wrap;
+            margin-left: -15%;
+            margin-right: -15%;
+        }
+
+        header {
+            background-color: black;
+            padding: 10px 0px 10px 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+        }
+
+        .col-2 {
+            flex: 0px 0px 16.666667%;
+            max-width: 16.666667%;
+        }
+
+        .col-3 {
+            flex: 0px 0px 25%;
+            max-width: 25%;
+        }
+
+        .col-8 {
+            flex: 0px 0px 66.666667%;
+            max-width: 66.666667%;
+        }
+
+        .col-12 {
+            flex: 0px 0px 100%;
+            max-width: 100%;
+        }
+
+        .menu ul li {
+            float: left;
+            margin-left: 20px;
+            list-style: none;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        ul.menu-1 {
+            position: absolute;
+            width: 225px;
+            background-color: black;
+        }
+
+        ul.menu-1 li {
+            padding: 15px 0px 0px 0px;
+            float: none;
+            display: none;
+        }
+
+        .menu ul li:hover ul.menu-1 li {
+            display: block;
+            color: yellow;
+        }
+
+        .menu ul ul a:hover {
+            background-color: orangered;
+            color: white;
+        }
+
+        .sign {
+            align-items: center;
+        }
+
+        #footer {
+
+            max-width: 100%;
+            background: grey;
+            height: 322px;
+            margin-top: 338px;
+            padding: 0px 63px;
+            padding-top: 57px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 menu">
+                    <img src="/img/FPT_Polytechnic.png" width="300px" />
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-8 menu">
+                    <ul>
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Sản phẩm</a>
+                            <ul class="menu-1">
+                                <li><a href="">Điện thoại</a></li>
+                                <li><a href="">Laptop</a></li>
+                                <li><a href="">Phụ kiện</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Liên hệ</a>
+                            <ul class="menu-1">
+                                <li><a href="">Email</a></li>
+                                <li><a href="">Di động</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Bản đồ</a></li>
+                        <li><a href="">Tư vấn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="sign">
+        <h3>From Đăng ký</h3>
+        <form action="Register.php">
+            <div>
+                <label>Họ và tên</label><br>
+                <input type="text" />
+            </div>
+            <div>
+                <label>Giới tính</label>
+                <label><input type="radio" name="Giới tính" />Nam</label>
+                <label><input type="radio" name="Giới tính" />Nữ</label>
+            </div>
+            <div>
+                <label>Số điện thoại</label><br>
+                <input type="text" />
+            </div>
+            <div>
+                <label>Quốc tịch</label>
+                <select>
+                    <option>Việt Nam</option>
+                    <option>China</option>
+                    <option>America</option>
+                    <option>Korea</option>
+                </select>
+            </div>
+            <div>
+                <label>Ghi chú</label><br>
+                <textarea cols="30" crow="50"></textarea>
+            </div>
+
+            <hr />
+            <div>
+                <input type="submit" value="Đăng kí" />
+                <input type="submit" value="Nhập lại" />
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="/img/gvn.jfif" alt="">
+            </div>
+            <p>Tìm hiểu thêm:https:https://gearvn.com/</p>
+        </div>
+    </div>
+</body>
+
+</html>

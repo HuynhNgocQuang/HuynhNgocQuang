@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urt-8"/>
+        <title> dee</title>
+    </head>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       .container{
+        max-width: 1200px;
+        margin: 0 auto;
+       }
+       header{
+        width: 100%;
+        height: 250px;
+        border: 1px solid;
+       }
+       .banner{
+        width: 100%;
+        height: 100%;
+        background-image: url("/img/banner.png");
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+       }
+       .brand-name{
+        position: absolute;
+        left: 10px;
+        bottom: 15px;
+       }
+       .brand-name h1{
+        color: white;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 1px 1px 2px orangered;
+       }
+       nav{
+        width: 100%;
+        padding: 8px;
+        text-align: center;
+        background-color: orangered;
+       }
+       nav a{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 20px;
+        text-transform: uppercase;
+        color: white;
+       }
+       nav a:hover{
+        color: yellow;
+       }
+       .clearfix{
+        content: "";
+        clear: both;
+        display: table;
+       }
+       .main-content{
+        width: 100%;
+        height: 200px;
+        border: 1px solid red;
+       }
+       .left-column{
+        float: left;
+        width: 75%;
+        height: 100%;
+        background-color: aqua;
+
+       }
+       .right-column{
+        width: 25%;
+        height: 100%;
+        background-color: burlywood;
+       }
+       .footer{
+        width: 100%;
+        background-color: yellow;
+        text-align: center;
+       }
+
+    </style>
+    <body>
+        <div class="container">
+            <header>
+                <section class="banner">
+                    <div class="brand-name">
+                        <h1>FPT Polytechnic</h1>
+                    </div>
+                </section>      
+            </header>
+                  <nav>
+                    <a href="#">Trang chủ</a>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Gióp ý</a>
+                    <a href="#">Giải đáp</a>
+                </nav>
+
+
+            <div class="main-content clearfix">
+                <div class="left-column">
+
+                </div>
+                <div class="right-column">
+
+                </div>
+            </div>
+            
+            <article></article>
+            <aside></aside>
+            <footer>FPT Polytechnic © 2017. All rights reserved.</footer>
+        </div>
+    </body>
+</html>
